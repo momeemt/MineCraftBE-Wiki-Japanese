@@ -11,7 +11,7 @@
 const system = server.registerSystem(0,0);
 
 system.initialize = function() {
-  this.listenForEvent ("minecraft:entity_acquired_item", (eventData) => this.onJoinPlayer(eventData));
+  this.listenForEvent ("minecraft:client_entered_world", (eventData) => this.onJoinPlayer(eventData));
 };
 
 system.onJoinPlayer = function(eventData) {
