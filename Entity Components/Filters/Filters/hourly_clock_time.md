@@ -18,3 +18,5 @@
 ```json
 { "test": "hourly_clock_time", "value": "0" }
 ```
+
+[翻訳元](https://minecraft.gamepedia.com/Bedrock_Edition_entity_components_documentation#hourly_clock_time)
