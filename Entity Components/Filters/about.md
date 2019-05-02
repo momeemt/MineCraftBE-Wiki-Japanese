@@ -22,4 +22,4 @@ value : テストで比較する値
 「all_of」の場合、最終的にグループ内の全てのテストがtrueを返したときに、グループもtrueを返します。  
 「any_of」の場合、グループ内のテストいずれかがtrueを返したときに、グループもtrueを返します。
 
-[翻訳元](https://minecraft.gamepedia.com/Bedrock_Edition_entity_components_documentation)
+[翻訳元](https://minecraft.gamepedia.com/Bedrock_Edition_entity_components_documentation#Filters)
