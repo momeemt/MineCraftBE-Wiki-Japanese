@@ -4,3 +4,9 @@ MarkDownで編集されています。Gitを利用して、どんな方でもPul
 
 # 軌跡
 2019/05/01...思いつく
+
+# Contributors (訳者)
+・[Momiyama](https://twitter.com/MomeeMt)  
+・[suinua](https://twitter.com/suinua)  
+
+翻訳・修正、推敲のPull Requestをどしどしお待ちしております。  
