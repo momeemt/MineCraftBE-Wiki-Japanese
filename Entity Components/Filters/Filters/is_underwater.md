@@ -20,4 +20,4 @@
 { "test": "is_underwater" }
 ```
 
-[翻訳元](https://minecraft.gamepedia.com/Bedrock_Edition_entity_components_documentation#is_game_rulee)
+[翻訳元](https://minecraft.gamepedia.com/Bedrock_Edition_entity_components_documentation#is_underwater)
