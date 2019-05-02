@@ -9,12 +9,13 @@
 | Integer | value |  | 0から24000までの数値(必須。数値) |
 
 ## コード例
-フルバージョン
 ```json
 { "test": "hourly_clock_time", "subject": "self", "operator": "equals", "value": "0" }
 ```
 
-省略版
+これは、現在時間とvalueが一致する時のみにtrueを返すフィルタです。  
+デフォルト値を使うことで、省略して記述できます。
+
 ```json
 { "test": "hourly_clock_time", "value": "0" }
 ```
