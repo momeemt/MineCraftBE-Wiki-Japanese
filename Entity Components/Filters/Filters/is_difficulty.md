@@ -17,7 +17,7 @@ Tests the current difficulty level of the game.
 </td>
 <td>self
 </td>
-<td>(Optional) The subject of this filter test.
+<td>このテストの条件対象。(オプション)
 <dl><dd><table class="wikitable">
 <tbody><tr>
 <th>オプション</th>

@@ -17,7 +17,7 @@ Compares the current moon phase with an integer value in the range (0, 7).
 </td>
 <td>self
 </td>
-<td>(Optional) The subject of this filter test.
+<td>このテストの条件対象。(オプション)
 <dl><dd><table class="wikitable">
 <tbody><tr>
 <th>オプション</th>
