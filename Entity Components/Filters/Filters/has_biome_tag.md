@@ -1,5 +1,5 @@
 # has_biome_tag  
-Tests whether the biome the subject is in has the specified tag.
+テストの対象が居るバイオームに、指定されたタグがある場合trueを返します。
   
 # パラメーター
 
@@ -59,7 +59,7 @@ Tests whether the biome the subject is in has the specified tag.
 <td>値を比較するための演算子。(オプション)
 <dl><dd><table class="wikitable">
 <tbody><tr>
-<th>Options</th>
+<th>オプション</th>
 <th>説明
 </th></tr>
 <tr>
@@ -120,7 +120,7 @@ Tests whether the biome the subject is in has the specified tag.
 </td>
 <td>
 </td>
-<td>(Required) The tag to look for
+<td>指定するタグ(必須)
 </td></tr></tbody></table></dd></dl>
 
 
@@ -128,7 +128,8 @@ Tests whether the biome the subject is in has the specified tag.
 ```json
 { "test": "has_biome_tag", "subject": "self", "operator": "equals", "value": " " }
 ```
-これは、TODO際にtrueを返すフィルタです。  
+これは、self(テストを呼び出したエンティティ、オブジェクト)がいるバイオームに、  
+`　`(value)がある際にtrueを返すフィルタです。  
 デフォルト値を使うことで、省略して記述できます。  
 ```json
 { "test": "has_biome_tag", "value": " " }

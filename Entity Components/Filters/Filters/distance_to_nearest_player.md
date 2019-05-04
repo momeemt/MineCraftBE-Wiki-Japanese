@@ -1,5 +1,5 @@
 # distance_to_nearest_player  
-Compares the distance to the nearest Player with a float value.
+最も近いプレイヤーとの距離を比較します。
   
 # パラメーター
 
@@ -59,7 +59,7 @@ Compares the distance to the nearest Player with a float value.
 <td>値を比較するための演算子。(オプション)
 <dl><dd><table class="wikitable">
 <tbody><tr>
-<th>Options</th>
+<th>オプション</th>
 <th>説明
 </th></tr>
 <tr>
@@ -120,7 +120,7 @@ Compares the distance to the nearest Player with a float value.
 </td>
 <td>
 </td>
-<td>(Required) A floating point value.
+<td>浮動小数点数(必須)
 </td></tr></tbody></table></dd></dl>
 
 
@@ -128,7 +128,7 @@ Compares the distance to the nearest Player with a float value.
 ```json
 { "test": "distance_to_nearest_player", "subject": "self", "operator": "equals", "value": "0.00" }
 ```
-これは、TODO際にtrueを返すフィルタです。  
+これは、プレイヤーとの距離が0.00な際にtrueを返すフィルタです。  
 デフォルト値を使うことで、省略して記述できます。  
 ```json
 { "test": "distance_to_nearest_player", "value": "0.00" }

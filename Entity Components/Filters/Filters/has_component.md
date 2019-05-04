@@ -1,6 +1,6 @@
 # has_component  
-Returns true when the subject entity contains the named component.
-  
+サブジェクトエンティティが、指定されたコンポーネントに含まれる場合trueを返します。
+
 # パラメーター
 
 <dl><dd><table class="wikitable">
@@ -59,7 +59,7 @@ Returns true when the subject entity contains the named component.
 <td>値を比較するための演算子。(オプション)
 <dl><dd><table class="wikitable">
 <tbody><tr>
-<th>Options</th>
+<th>オプション</th>
 <th>説明
 </th></tr>
 <tr>
@@ -120,7 +120,7 @@ Returns true when the subject entity contains the named component.
 </td>
 <td>
 </td>
-<td>(Required) The component name to look for
+<td>指定するコンポーネント(必須) 
 </td></tr></tbody></table></dd></dl>
 
 
@@ -128,7 +128,8 @@ Returns true when the subject entity contains the named component.
 ```json
 { "test": "has_component", "subject": "self", "operator": "equals", "value": "minecraft:explode" }
 ```
-これは、TODO際にtrueを返すフィルタです。  
+これは、self(テストを呼び出したエンティティ、オブジェクト)が、  
+`minecraft:explode`コンポーネントに含まれる場合trueを返すフィルタです。  
 デフォルト値を使うことで、省略して記述できます。  
 ```json
 { "test": "has_component", "value": "minecraft:explode" }

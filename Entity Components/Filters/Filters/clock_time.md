@@ -1,5 +1,5 @@
 # clock_time  
-Compares the current time with a float value in the range (0.0, 1.0).
+現在時刻と時計を比較します。
 0.0= Noon
 0.25= Sunset
 0.5= Midnight
@@ -63,7 +63,7 @@ Compares the current time with a float value in the range (0.0, 1.0).
 <td>値を比較するための演算子。(オプション)
 <dl><dd><table class="wikitable">
 <tbody><tr>
-<th>Options</th>
+<th>オプション</th>
 <th>説明
 </th></tr>
 <tr>
@@ -124,7 +124,7 @@ Compares the current time with a float value in the range (0.0, 1.0).
 </td>
 <td>
 </td>
-<td>(Required) A floating point value.
+<td>浮動小数点数(必須)
 </td></tr></tbody></table></dd></dl>
 
 
@@ -132,7 +132,7 @@ Compares the current time with a float value in the range (0.0, 1.0).
 ```json
 { "test": "clock_time", "subject": "self", "operator": "equals", "value": "0.00" }
 ```
-これは、TODO際にtrueを返すフィルタです。  
+これは、現在時刻が0.00(Noon)な際にtrueを返すフィルタです。  
 デフォルト値を使うことで、省略して記述できます。  
 ```json
 { "test": "clock_time", "value": "0.00" }
