@@ -3,7 +3,8 @@
 MarkDownで編集されています。Gitを利用して、どんな方でもPull Requestを送信して編集できます。  
 
 # 軌跡
-2019/05/01...思いつく
+- 2019/05/01 思いつく
+- 2022/07/02 アーカイブしました
 
 # Contributors (訳者)
 ・[Momiyama](https://twitter.com/MomeeMt)  
